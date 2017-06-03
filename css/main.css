@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6vh;
+    text-align: center;
+    height: 30vh;
+    background-color: #8ea253;
+}
+h1 {
+    color: #dfef89;
+}
+input[type=text] {
+    width: 70%;
+    height: 3.4vw;
+    background-color: #dfef89;
+    border: none;
+    font-size: 2.4vw;
+    color: #8ea253;
+}
+input[type=button] {
+    background-color: #dfef89;
+    padding: 0.5vw;
+    font-size: 2vw;
+    color: #8ea253;
+}
+.block {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10vh;
+    text-align: center;
+    background-color: #dfef89;
+}
+#list-of-things-need-todo {
+    list-style: none;
+}
+#list-of-things-need-todo li {
+    padding-bottom: 1vw;
+    font-size: 1.8vw;
+    color: #367d56;
+}
+.close {
+    float: right;
+    clear: both;
+}
+
+.checked {
+    text-decoration: line-through;
+}
